@@ -43,11 +43,8 @@ public class Homework5 {
 
         for(int j: array3) {
             System.out.println(j*15);
-            System.out.println(j);
         }
 
-
-        //Тестовый коммит
 
 
 
