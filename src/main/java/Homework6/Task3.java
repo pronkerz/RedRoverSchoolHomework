@@ -11,12 +11,12 @@ public class Task3 {
 //        Для указанной строки ответ будет 6, 15, 29.
 
         String s = "Посмотрите как Рите нравится ритм";
+        String lowered = s.toLowerCase();
 
-
-        int index = s.toLowerCase().indexOf("рит");
+        int index = lowered.indexOf("рит");
         while (index != -1) {
             System.out.println(index);
-            index = s.toLowerCase().indexOf("рит", index + 1);
+            index = lowered.indexOf("рит", index + 1);
         }
 
 
