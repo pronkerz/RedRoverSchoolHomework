@@ -2,10 +2,6 @@ package Homework8;
 
 public class Director extends Manager {
 
-    public Director(String name, int age, String sex, double dailySalary, int employees) {
-        super(name, age, sex, dailySalary, employees);
-    }
-
     public Director(String name, double dailySalary, int employees) {
         super(name, dailySalary, employees);
     }

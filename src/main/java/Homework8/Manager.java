@@ -4,11 +4,6 @@ public class Manager extends Employee {
 
     private int employees;
 
-    public Manager(String name, int age, String sex, double dailySalary, int employees) {
-        super(name, age, sex, dailySalary);
-        this.employees = employees;
-    }
-
     public Manager(String name, double dailySalary, int employees) {
         super(name, dailySalary);
         this.employees = employees;

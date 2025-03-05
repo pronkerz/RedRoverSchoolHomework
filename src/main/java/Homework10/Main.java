@@ -9,18 +9,14 @@ public class Main {
     }
 
     public static String convertGradeToText(int grade) {
-        String text = "";
         switch (grade) {
-            case 1: text = "плохо"; break;
-            case 2: text = "неудовлетворительно"; break;
-            case 3: text = "удовлетворительно"; break;
-            case 4: text = "хорошо"; break;
-            case 5: text = "отлично"; break;
-            default: text = "Введите оценку от 1 до 5";
-
+            case 1: return "плохо";
+            case 2: return "неудовлетворительно";
+            case 3: return "удовлетворительно";
+            case 4: return "хорошо";
+            case 5: return "отлично";
+            default: return "Введите оценку от 1 до 5";
         }
-
-        return text;
     }
 
     public static String convertAmericanGradeToText(char grade) {
